@@ -45,8 +45,8 @@ def DrawColoredText():
             }
 
             remaining_text = user_choice2
-            chunks = []  
-
+            chunks = [] 
+            current_color = final_color
             while remaining_text:
                 earliest_idx = len(remaining_text)
                 earliest_tag = None
