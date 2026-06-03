@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CD"
+version = "1.0.0"
+authors = [
+  { name="NeverStopTheCoder" },
+]
+description = "A terminal ASCII engine that supports inline multi-color and formatting tags."
+readme = "README.md"
+requires-python = ">=3.7"
+
+# This automatically handles the pyfiglet installation background work:
+dependencies = [
+    "pyfiglet",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+py-modules = ["CD"]
